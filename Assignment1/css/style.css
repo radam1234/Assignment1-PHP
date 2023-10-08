@@ -1,0 +1,64 @@
+/* Apply styles to the body and headers */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Style the header and navigation bar */
+.navbar {
+    background-color: #007BFF;
+    padding: 20px 0;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style the pizza size select box */
+#pizzaSize {
+    width: 100%;
+}
+
+/* Style the toppings checkboxes */
+.form-check-input {
+    margin-right: 10px;
+}
+
+/* Style the drinks select box */
+#drinks {
+    width: 100%;
+}
+
+/* Style the delivery address input */
+#deliveryAddress {
+    width: 100%;
+}
+
+/* Style the Place Order button */
+.btn-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+/* Style the person's name and menu button */
+.person-name {
+    font-family: 'Raleway', sans-serif;
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+}
+
+.menu-button {
+    display: none; /* Initially hidden */
+    cursor: pointer;
+}
